@@ -9,10 +9,8 @@ h1 {
     font-size: 400px;
     display: inline-flex;
     text-align: center;
-    margin: auto;
     font-weight: bold;
     padding-top: 50px;
-    padding-left: 12%;
 }
 
 h2{
@@ -24,14 +22,22 @@ h2{
     font-weight: bold;
     padding-top: 50px;
     white-space: nowrap;
-    margin-left: 50%;
+}
+.title {
+    text-align: center;
+    
+}
+
+.cont {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 img {
      /* Or use width: 50%; */
     height: 300px;
-    margin-right: 20%;
-    margin-left: 20%;
 }
 
 
